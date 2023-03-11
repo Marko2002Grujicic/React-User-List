@@ -18,8 +18,6 @@ export const Users = () => {
                             <p>Email: {user.email}</p>
                             <p>Date of birth: {new Date(user.dob.date).toLocaleDateString()}</p>
                         </div>
-                    
-                   
                 </div>
             ))}
         </div>
