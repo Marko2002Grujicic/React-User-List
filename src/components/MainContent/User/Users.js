@@ -4,7 +4,7 @@ import './Users.css'
 
 export const Users = () => {
     const [users] = useState(UserList);
-    const generateUser = users.sort(() => Math.random()).slice(0, 9);
+    const generateUser = users.sort(() => 0.1 - Math.random()).slice(0, 9);
 
     return(
         <div className="container">
